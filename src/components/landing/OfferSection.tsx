@@ -58,7 +58,7 @@ export default function OfferSection() {
                                 <p className="text-red-400 line-through mb-1">De R$ 97,00</p>
                                 <div className="flex items-center justify-center gap-2 mb-6">
                                     <span className="text-red-800 text-lg">Por</span>
-                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 11,90</span>
+                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 19,90</span>
                                 </div>
                                 
                                 <ul className="text-left space-y-3 mb-8 font-medium text-gray-700 flex-grow">
