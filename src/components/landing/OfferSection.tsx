@@ -71,7 +71,7 @@ export default function OfferSection() {
                                     QUERO ESSE
                                 </button>
                                 
-                                <p className="text-xs text-red-800 mt-4 font-semibold uppercase">MAIS VENDIDO</p>
+                                <p className="text-xs text-red-800 mt-4 font-semibold uppercase neon-text">MAIS VENDIDO NAS ÚLTIMAS 24H</p>
                             </div>
                         </div>
                     </div>
