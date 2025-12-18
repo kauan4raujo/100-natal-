@@ -9,7 +9,6 @@ import UpsellModal from './UpsellModal';
 import { Check, X } from 'lucide-react';
 
 export default function OfferSection() {
-    const paymentLogosImage = PlaceHolderImages.find(p => p.id === 'secure-payment-logos');
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     return (
@@ -78,16 +77,7 @@ export default function OfferSection() {
                     </div>
 
                     <div className="mt-12 text-center">
-                        {paymentLogosImage && (
-                             <Image 
-                                src={paymentLogosImage.imageUrl} 
-                                alt={paymentLogosImage.description} 
-                                width={300}
-                                height={40}
-                                data-ai-hint={paymentLogosImage.imageHint}
-                                className="h-10 w-auto mx-auto grayscale opacity-60"
-                            />
-                        )}
+                       
                     </div>
                 </div>
             </section>
