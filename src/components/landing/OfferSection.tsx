@@ -51,7 +51,7 @@ export default function OfferSection() {
                              <div className="christmas-gradient text-white text-center py-4 font-bold uppercase tracking-widest text-sm shadow-md">
                                 ⭐ PLANO PREMIUM – CEIA COMPLETA + EXPERIÊNCIA GOURMET
                             </div>
-                             <p className="text-center bg-red-600 py-1 text-red-100 text-xs font-bold uppercase" style={{ textShadow: '0 0 8px rgba(220, 38, 38, 0.8)' }}>
+                             <p className="text-center bg-red-600 py-1 text-red-100 text-xs font-bold uppercase" style={{ color: 'red', textShadow: '0 0 10px red' }}>
                                 🔥 MAIS VENDIDO NAS ÚLTIMAS 24H
                             </p>
                             <div className="p-8 text-center flex-grow flex flex-col bg-red-50">
@@ -105,14 +105,14 @@ export default function OfferSection() {
                                 </div>
                                 
                                 <div className="bg-red-100 border border-red-200 rounded-lg p-2 mt-4 text-center">
-                                    <p className="text-xs text-red-700">Valor total dos bônus: <span className="line-through">R$ 79,00</span></p>
+                                    <p className="text-xs text-red-700">💰 Valor total dos bônus: <span className="line-through">R$ 79,00</span></p>
                                     <p className="text-sm font-bold text-red-800">💥 Hoje você paga apenas R$ 19,90</p>
                                 </div>
 
                                 <p className="text-sm text-gray-700 font-medium my-6">👉 Pelo valor de menos de 2 cafés, você garante a ceia mais completa do Natal</p>
 
                                 <button className={cn("btn-gold w-full text-red-950 font-extrabold text-xl py-5 rounded-xl shadow-xl uppercase animate-pulse transform hover:scale-105 transition-transform")}>
-                                    🛒 QUERO O PLANO PREMIUM AGORA
+                                    QUERO O PLANO PREMIUM AGORA
                                 </button>
                             </div>
                         </div>
