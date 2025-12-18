@@ -41,13 +41,13 @@ export default function OfferSection() {
                                 <p className="text-sm text-gray-700 font-medium mb-6">👉 Ideal para quem quer montar uma ceia completa gastando pouco</p>
 
                                 <Button onClick={() => setIsModalOpen(true)} className="w-full bg-gray-200 text-gray-700 font-bold py-4 h-auto rounded-xl shadow-sm hover:bg-gray-300 transition-colors uppercase text-lg mt-auto">
-                                    🛒 QUERO ESSE PLANO
+                                    QUERO ESSE PLANO
                                 </Button>
                             </div>
                         </div>
 
                         {/* CARD 2: PREMIUM */}
-                        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-red-600 relative transform md:-translate-y-6 flex flex-col ring-4 ring-amber-400 ring-offset-4 z-10">
+                        <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-red-600 relative flex flex-col ring-4 ring-amber-400 ring-offset-4 z-10">
                              <div className="christmas-gradient text-white text-center py-4 font-bold uppercase tracking-widest text-sm shadow-md">
                                 ⭐ PLANO PREMIUM – CEIA COMPLETA + EXPERIÊNCIA GOURMET
                             </div>
