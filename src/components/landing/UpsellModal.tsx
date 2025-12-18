@@ -30,17 +30,16 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
               <AlertTriangle className="w-5 h-5" />
             </div>
             <h3 className="font-headline text-xl font-bold uppercase tracking-wide">
-              Atenção: Esgotado!
+              Atenção: Oferta Especial!
             </h3>
             <p className="text-red-100 mt-1 font-medium text-sm">
-              O pacote básico "100 Receitas de Natal" acabou de esgotar.
+              O plano básico custa R$9,90. Que tal levar muito mais por um pouco mais?
             </p>
           </div>
 
           <div className="p-6 text-center bg-gradient-to-b from-white to-amber-50">
             <p className="text-gray-600 mb-4 text-base">
-              Mas não queremos que você fique sem sua Ceia Perfeita! Por isso,
-              liberamos uma condição especial:
+              Por uma pequena diferença, libere os bônus exclusivos e transforme seu Natal!
             </p>
 
             <div className="border-2 border-dashed border-red-300 bg-white p-4 rounded-2xl mb-5 relative">
@@ -48,43 +47,40 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
                 Oferta Única
               </span>
               <h4 className="font-headline text-lg font-bold text-gray-800 mb-1">
-                Leve o COMBO MASTER DE NATAL
+                Leve o Pacote PREMIUM Completo
               </h4>
               <p className="text-gray-400 text-xs mb-1">
-                De <span className="line-through">R$ 19,90</span> por apenas:
+                De <span className="line-through">R$ 97,00</span> por apenas:
               </p>
               <div className="text-4xl font-extrabold text-green-600 mb-1">
-                R$ 11,90
+                R$ 19,90
               </div>
               <p className="text-xs text-red-500 font-bold animate-pulse">
-                ⚡ Últimas 3 vagas com esse desconto
+                ⚡ Desconto válido apenas agora
               </p>
             </div>
 
             <ul className="text-left text-sm text-gray-600 space-y-2 mb-6 bg-gray-50 p-4 rounded-xl">
               <li className="flex items-center gap-2">
-                <Check className="text-green-500 w-4 h-4" /> Tudo do pacote básico
+                <Check className="text-green-500 w-4 h-4" /> <strong>100 Receitas de Natal</strong>
               </li>
               <li className="flex items-center gap-2">
-                <Check className="text-green-500 w-4 h-4" /> + Guia de Drinks
+                <Check className="text-green-500 w-4 h-4" /> + Guia de Drinks Natalinos
               </li>
               <li className="flex items-center gap-2">
                 <Check className="text-green-500 w-4 h-4" /> + Sobremesas Gourmet
               </li>
-              <li className="flex items-center gap-2">
-                <Check className="text-green-500 w-4 h-4" /> + Panetones Artesanais
-              </li>
             </ul>
 
             <Button className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 text-white font-extrabold text-lg py-3 h-auto rounded-xl shadow-lg transform transition hover:scale-105">
-              QUERO APROVEITAR POR R$ 11,90
+              QUERO APROVEITAR POR R$ 19,90
             </Button>
             <Button
               onClick={() => onOpenChange(false)}
               variant="link"
               className="mt-4 text-gray-400 text-xs hover:text-gray-600 underline"
             >
-              Não, obrigado. Vou ficar sem as receitas.
+              Não, obrigado. Quero apenas o básico por R$9,90.
             </Button>
           </div>
         </div>

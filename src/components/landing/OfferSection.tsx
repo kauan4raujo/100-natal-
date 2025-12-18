@@ -31,7 +31,7 @@ export default function OfferSection() {
                                 <p className="text-gray-400 line-through mb-1">De R$ 47,00</p>
                                 <div className="flex items-center justify-center gap-2 mb-6">
                                     <span className="text-gray-600">Por</span>
-                                    <span className="text-4xl font-extrabold text-gray-800">R$ 27,90</span>
+                                    <span className="text-4xl font-extrabold text-gray-800">R$ 9,90</span>
                                 </div>
                                 
                                 <ul className="text-left space-y-3 mb-8 text-sm text-gray-600 flex-grow">
@@ -58,7 +58,7 @@ export default function OfferSection() {
                                 <p className="text-red-400 line-through mb-1">De R$ 97,00</p>
                                 <div className="flex items-center justify-center gap-2 mb-6">
                                     <span className="text-red-800 text-lg">Por</span>
-                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 37,90</span>
+                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 19,90</span>
                                 </div>
                                 
                                 <ul className="text-left space-y-3 mb-8 font-medium text-gray-700 flex-grow">
@@ -66,7 +66,6 @@ export default function OfferSection() {
                                     <li className="flex items-center gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm"><Check className="w-3 h-3"/></span> Acesso Vitalício</li>
                                     <li className="flex items-center gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm"><Check className="w-3 h-3"/></span> <span className="text-red-700 font-bold">+ Bônus:</span> Guia de Drinks Natalinos</li>
                                     <li className="flex items-center gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm"><Check className="w-3 h-3"/></span> <span className="text-red-700 font-bold">+ Bônus:</span> Sobremesas Gourmet</li>
-                                    <li className="flex items-center gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm"><Check className="w-3 h-3"/></span> <span className="text-red-700 font-bold">+ Bônus:</span> 15 receitas de panetones e chocotones</li>
                                 </ul>
 
                                 <button className={cn("btn-gold w-full text-red-950 font-extrabold text-xl py-5 rounded-xl shadow-xl uppercase animate-pulse transform hover:scale-105 transition-transform")}>
