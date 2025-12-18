@@ -19,7 +19,7 @@ export default function OfferSection() {
                     <div className="grid md:grid-cols-2 gap-8 items-start">
                         
                         {/* CARD 1: BÁSICO */}
-                        <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col h-full">
+                        <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col">
                             <div className="bg-gray-100 text-gray-600 text-center py-3 font-bold uppercase tracking-widest text-sm">
                                 🔹 PLANO BÁSICO – ESSENCIAL DA CEIA
                             </div>
