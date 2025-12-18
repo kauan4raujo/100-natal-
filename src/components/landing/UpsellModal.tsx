@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, Check, X } from "lucide-react";
+import Link from "next/link";
 
 type UpsellModalProps = {
   isOpen: boolean;
@@ -76,11 +77,13 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
               QUERO APROVEITAR POR R$ 11,90
             </Button>
             <Button
-              onClick={() => onOpenChange(false)}
+              asChild
               variant="link"
               className="mt-4 text-gray-400 text-xs hover:text-gray-600 underline"
             >
-              Não, obrigado. Quero apenas o básico por R$9,90.
+              <Link href="https://pay.kiwify.com.br/VkzciNS" target="_blank">
+                Não, obrigado. Quero apenas o básico por R$9,90.
+              </Link>
             </Button>
           </div>
         </div>
