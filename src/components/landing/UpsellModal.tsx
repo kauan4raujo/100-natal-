@@ -3,10 +3,14 @@
 import {
   Dialog,
   DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { AlertTriangle, Check, X } from "lucide-react";
 import Link from "next/link";
+import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
 type UpsellModalProps = {
   isOpen: boolean;
@@ -17,6 +21,14 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
   return (
     <Dialog open={isOpen} onOpenChange={onOpenChange}>
       <DialogContent className="bg-transparent border-none shadow-none p-4 max-w-md w-full !rounded-3xl">
+        <DialogHeader>
+            <DialogTitle asChild>
+              <VisuallyHidden>Atenção: Oferta Especial!</VisuallyHidden>
+            </DialogTitle>
+            <DialogDescription asChild>
+              <VisuallyHidden>O plano básico custa R$9,90. Que tal levar muito mais por um pouco mais?</VisuallyHidden>
+            </DialogDescription>
+        </DialogHeader>
         <div className="bg-white rounded-3xl relative overflow-hidden shadow-2xl">
           <button
             onClick={() => onOpenChange(false)}
