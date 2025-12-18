@@ -71,7 +71,7 @@ export default function OfferSection() {
                                     QUERO ESSE
                                 </button>
                                 
-                                <p className="text-xs gold-text mt-4 font-semibold uppercase [text-shadow:0_0_8px_rgba(252,211,77,0.7)]">MAIS VENDIDO NAS ÚLTIMAS 24H</p>
+                                <p className="text-xs text-red-500 mt-4 font-semibold uppercase [text-shadow:0_0_8px_rgba(220,38,38,0.7)]">MAIS VENDIDO NAS ÚLTIMAS 24H</p>
                             </div>
                         </div>
                     </div>
