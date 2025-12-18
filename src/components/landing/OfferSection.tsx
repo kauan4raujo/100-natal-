@@ -16,10 +16,10 @@ export default function OfferSection() {
                 <div className="max-w-6xl mx-auto">
                     <h2 className="font-headline text-3xl md:text-5xl font-bold text-center text-red-900 mb-12">Escolha a Melhor Opção para o Seu Natal</h2>
                     
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 gap-8 items-start">
                         
                         {/* CARD 1: BÁSICO */}
-                        <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col">
+                        <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col h-full">
                             <div className="bg-gray-100 text-gray-600 text-center py-3 font-bold uppercase tracking-widest text-sm">
                                 🔹 PLANO BÁSICO – ESSENCIAL DA CEIA
                             </div>
@@ -40,7 +40,7 @@ export default function OfferSection() {
 
                                 <p className="text-sm text-gray-700 font-medium mb-6">👉 Ideal para quem quer montar uma ceia completa gastando pouco</p>
 
-                                <Button onClick={() => setIsModalOpen(true)} className="w-full bg-gray-200 text-gray-700 font-bold py-4 h-auto rounded-xl shadow-sm hover:bg-gray-300 transition-colors uppercase text-lg">
+                                <Button onClick={() => setIsModalOpen(true)} className="w-full bg-gray-200 text-gray-700 font-bold py-4 h-auto rounded-xl shadow-sm hover:bg-gray-300 transition-colors uppercase text-lg mt-auto">
                                     🛒 QUERO ESSE PLANO
                                 </Button>
                             </div>
@@ -51,7 +51,7 @@ export default function OfferSection() {
                              <div className="christmas-gradient text-white text-center py-4 font-bold uppercase tracking-widest text-sm shadow-md">
                                 ⭐ PLANO PREMIUM – CEIA COMPLETA + EXPERIÊNCIA GOURMET
                             </div>
-                             <p className="text-center bg-red-600 py-1 text-white text-xs font-semibold uppercase [text-shadow:0_0_8px_#DC2626]">
+                             <p className="text-center bg-red-600 py-1 text-red-100 text-xs font-bold uppercase" style={{ textShadow: '0 0 8px rgba(220, 38, 38, 0.8)' }}>
                                 🔥 MAIS VENDIDO NAS ÚLTIMAS 24H
                             </p>
                             <div className="p-8 text-center flex-grow flex flex-col bg-red-50">
@@ -65,12 +65,12 @@ export default function OfferSection() {
 
                                 <div className="text-left bg-white p-4 rounded-xl border border-red-100">
                                     <h4 className="font-bold text-gray-800 mb-3">🎁 O QUE VOCÊ LEVA NO PREMIUM:</h4>
-                                    <ul className="text-left space-y-2 mb-4 font-medium text-gray-700 flex-grow">
-                                        <li className="flex items-start gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm mt-1 shrink-0"><Check className="w-3 h-3"/></span> 100 Receitas de Natal Testadas</li>
-                                        <li className="flex items-start gap-2"><span className="bg-green-600 text-white p-0.5 rounded-full flex items-center justify-center shadow-sm mt-1 shrink-0"><Check className="w-3 h-3"/></span> Acesso vitalício (para sempre)</li>
+                                    <ul className="text-left space-y-2 mb-4 font-medium text-gray-700">
+                                        <li className="flex items-start gap-2">✔️ 100 Receitas de Natal Testadas</li>
+                                        <li className="flex items-start gap-2">✔️ Acesso vitalício (para sempre)</li>
                                     </ul>
                                     <h4 className="font-bold text-gray-800 mb-3">🎁 BÔNUS EXCLUSIVOS (SÓ NO PREMIUM):</h4>
-                                    <ul className="text-left space-y-3 mb-4 font-medium text-gray-700 flex-grow">
+                                    <ul className="text-left space-y-3 mb-4 font-medium text-gray-700">
                                       <li className="flex flex-col">
                                         <div className="flex items-start gap-2">
                                           <span className="text-xl">🥂</span>
@@ -116,10 +116,6 @@ export default function OfferSection() {
                                 </button>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="mt-12 text-center">
-                       
                     </div>
                 </div>
             </section>
