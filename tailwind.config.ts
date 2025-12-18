@@ -11,10 +11,11 @@ export default {
     extend: {
       fontFamily: {
         body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
+        headline: ['Playfair Display', 'serif'],
         code: ['monospace'],
       },
       colors: {
+        'christmas-green': '#166534',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

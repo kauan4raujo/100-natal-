@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "recipe-book-mockup",
+      "description": "Mockup of the Christmas recipe book",
+      "imageUrl": "https://images.unsplash.com/photo-1495546968767-f0573cca821e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxyZWNpcGUlMjBib29rfGVufDB8fHx8MTc2NjAyNzAxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "recipe book"
+    },
+    {
+      "id": "christmas-dinner-table",
+      "description": "A lavish Christmas dinner table spread",
+      "imageUrl": "https://images.unsplash.com/photo-1659036356178-026f5783cc8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjaHJpc3RtYXMlMjBkaW5uZXJ8ZW58MHx8fHwxNzY1OTgwOTEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "christmas dinner"
+    },
+    {
+      "id": "secure-payment-logos",
+      "description": "Logos for secure payment methods",
+      "imageUrl": "https://images.unsplash.com/photo-1649734924649-b559375080b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwYXltZW50JTIwbG9nb3N8ZW58MHx8fHwxNzY2MDMyODcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "payment logos"
+    },
+    {
+      "id": "guarantee-seal",
+      "description": "A 7-day money-back guarantee seal",
+      "imageUrl": "https://images.unsplash.com/photo-1635810766767-ca010af2d77b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxndWFyYW50ZWUlMjBzZWFsfGVufDB8fHx8MTc2NjAyMzA2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guarantee seal"
+    }
+  ]
 }
