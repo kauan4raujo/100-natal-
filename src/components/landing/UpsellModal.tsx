@@ -73,8 +73,10 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
               </li>
             </ul>
 
-            <Button className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 text-white font-extrabold text-lg py-3 h-auto rounded-xl shadow-lg transform transition hover:scale-105">
-              QUERO APROVEITAR POR R$ 11,90
+            <Button asChild className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 text-white font-extrabold text-lg py-3 h-auto rounded-xl shadow-lg transform transition hover:scale-105">
+              <Link href="https://pay.kiwify.com.br/eur9Yyk" target="_blank">
+                QUERO APROVEITAR POR R$ 11,90
+              </Link>
             </Button>
             <Button
               asChild
