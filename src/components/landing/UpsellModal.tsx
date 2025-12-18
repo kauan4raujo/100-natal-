@@ -53,7 +53,7 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
                 De <span className="line-through">R$ 97,00</span> por apenas:
               </p>
               <div className="text-4xl font-extrabold text-green-600 mb-1">
-                R$ 19,90
+                R$ 11,90
               </div>
               <p className="text-xs text-red-500 font-bold animate-pulse">
                 ⚡ Desconto válido apenas agora
@@ -73,7 +73,7 @@ export default function UpsellModal({ isOpen, onOpenChange }: UpsellModalProps) 
             </ul>
 
             <Button className="w-full bg-gradient-to-r from-green-600 to-green-700 hover:from-green-500 hover:to-green-600 text-white font-extrabold text-lg py-3 h-auto rounded-xl shadow-lg transform transition hover:scale-105">
-              QUERO APROVEITAR POR R$ 19,90
+              QUERO APROVEITAR POR R$ 11,90
             </Button>
             <Button
               onClick={() => onOpenChange(false)}
