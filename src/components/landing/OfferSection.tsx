@@ -24,14 +24,14 @@ export default function OfferSection() {
                         {/* CARD 1: BÁSICO */}
                         <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col">
                             <div className="bg-gray-100 text-gray-600 text-center py-3 font-bold uppercase tracking-widest text-sm">
-                                Opção Econômica
+                                PLANO BÁSICO
                             </div>
                             <div className="p-8 text-center flex-grow flex flex-col">
                                 <h3 className="font-headline text-xl font-bold mb-2 text-gray-800">100 Receitas de Natal</h3>
-                                <p className="text-gray-400 line-through mb-1">De R$ 29,90</p>
+                                <p className="text-gray-400 line-through mb-1">De R$ 47,00</p>
                                 <div className="flex items-center justify-center gap-2 mb-6">
                                     <span className="text-gray-600">Por</span>
-                                    <span className="text-4xl font-extrabold text-gray-800">R$ 9,90</span>
+                                    <span className="text-4xl font-extrabold text-gray-800">R$ 27,90</span>
                                 </div>
                                 
                                 <ul className="text-left space-y-3 mb-8 text-sm text-gray-600 flex-grow">
@@ -43,7 +43,7 @@ export default function OfferSection() {
                                 </ul>
 
                                 <Button onClick={() => setIsModalOpen(true)} className="w-full bg-gray-200 text-gray-700 font-bold py-4 h-auto rounded-xl shadow-sm hover:bg-gray-300 transition-colors uppercase text-lg">
-                                    Comprar Básico
+                                    QUERO ESSE
                                 </Button>
                             </div>
                         </div>
@@ -51,14 +51,14 @@ export default function OfferSection() {
                         {/* CARD 2: PREMIUM */}
                         <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-4 border-red-600 relative transform md:-translate-y-6 flex flex-col ring-4 ring-amber-400 ring-offset-4 z-10">
                             <div className="christmas-gradient text-white text-center py-4 font-bold uppercase tracking-widest text-sm shadow-md">
-                                🎅 Recomendado • Especial de Natal 🎄
+                                PLANO PREMIUM
                             </div>
                             <div className="p-8 text-center flex-grow flex flex-col bg-red-50">
-                                <h3 className="font-headline text-2xl font-bold mb-2 text-red-900">Combo Master de Natal</h3>
-                                <p className="text-red-400 line-through mb-1">De R$ 49,90</p>
+                                <h3 className="font-headline text-2xl font-bold mb-2 text-red-900">100 Receitas de Natal + Bônus</h3>
+                                <p className="text-red-400 line-through mb-1">De R$ 97,00</p>
                                 <div className="flex items-center justify-center gap-2 mb-6">
                                     <span className="text-red-800 text-lg">Por</span>
-                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 19,90</span>
+                                    <span className="text-6xl font-extrabold text-red-600 drop-shadow-sm">R$ 37,90</span>
                                 </div>
                                 
                                 <ul className="text-left space-y-3 mb-8 font-medium text-gray-700 flex-grow">
@@ -70,10 +70,10 @@ export default function OfferSection() {
                                 </ul>
 
                                 <button className={cn("btn-gold w-full text-red-950 font-extrabold text-xl py-5 rounded-xl shadow-xl uppercase animate-pulse transform hover:scale-105 transition-transform")}>
-                                    Quero o Combo Completo
+                                    QUERO ESSE
                                 </button>
                                 
-                                <p className="text-xs text-red-800 mt-4 font-semibold">🎄 Mais vendido nas últimas 24h</p>
+                                <p className="text-xs text-red-800 mt-4 font-semibold uppercase">MAIS VENDIDO</p>
                             </div>
                         </div>
                     </div>
