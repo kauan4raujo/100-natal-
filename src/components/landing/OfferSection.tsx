@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import UpsellModal from './UpsellModal';
 import { cn } from '@/lib/utils';
 import { Check } from 'lucide-react';
+import Link from 'next/link';
 
 export default function OfferSection() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -111,9 +112,9 @@ export default function OfferSection() {
 
                                 <p className="text-sm text-gray-700 font-medium my-6">👉 Pelo valor de menos de 2 cafés, você garante a ceia mais completa do Natal</p>
 
-                                <button className={cn("btn-gold w-full text-red-950 font-extrabold text-xl py-5 rounded-xl shadow-xl uppercase animate-pulse transform hover:scale-105 transition-transform")}>
+                                <Link href="https://pay.kiwify.com.br/YHc9Roa" target="_blank" className={cn("btn-gold w-full text-red-950 font-extrabold text-xl py-5 rounded-xl shadow-xl uppercase animate-pulse transform hover:scale-105 transition-transform inline-block text-center")}>
                                     QUERO O PLANO PREMIUM AGORA
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>
