@@ -1,12 +1,10 @@
 "use client";
 
 import { useState } from 'react';
-import Image from 'next/image';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Button } from '@/components/ui/button';
-import { cn } from '@/lib/utils';
 import UpsellModal from './UpsellModal';
-import { Check, X } from 'lucide-react';
+import { cn } from '@/lib/utils';
+import { Check } from 'lucide-react';
 
 export default function OfferSection() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -18,7 +16,7 @@ export default function OfferSection() {
                 <div className="max-w-6xl mx-auto">
                     <h2 className="font-headline text-3xl md:text-5xl font-bold text-center text-red-900 mb-12">Escolha a Melhor Opção para o Seu Natal</h2>
                     
-                    <div className="grid md:grid-cols-2 gap-8 items-stretch">
+                    <div className="grid md:grid-cols-2 gap-8">
                         
                         {/* CARD 1: BÁSICO */}
                         <div className="bg-white rounded-3xl shadow-xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all relative flex flex-col">
@@ -53,7 +51,7 @@ export default function OfferSection() {
                              <div className="christmas-gradient text-white text-center py-4 font-bold uppercase tracking-widest text-sm shadow-md">
                                 ⭐ PLANO PREMIUM – CEIA COMPLETA + EXPERIÊNCIA GOURMET
                             </div>
-                             <p className="text-center bg-red-600 py-1 text-white text-xs font-semibold uppercase [text-shadow:0_0_8px_rgba(255,255,255,0.5)]">
+                             <p className="text-center bg-red-600 py-1 text-white text-xs font-semibold uppercase [text-shadow:0_0_8px_#DC2626]">
                                 🔥 MAIS VENDIDO NAS ÚLTIMAS 24H
                             </p>
                             <div className="p-8 text-center flex-grow flex flex-col bg-red-50">
